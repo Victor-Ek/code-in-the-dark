@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, helvetica, Arial, arial;
+    color: white;
+}
+
+body {
+    background-color: #000;
+    height: 100vh;
+}
+
+section {
+    border-bottom: 5px solid darkgray;
+}
+
+.hero {
+    position: relative;
+    background-image: url("netflix-hero.jpg");
+    object-fit: cover;
+    display: flex;
+    width: 100vw;
+    height: 70vh;
+}
+
+.hero-filter {
+    background-color: rgba(0,0,0,0.2);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-header {
+    display: flex;
+    height: 3rem;
+    justify-content: space-between;
+    margin: 1rem 2rem;
+    width: 100%;
+}
+
+.svg-icon-netflix-logo {
+    height: 60px;
+    width: 222px;
+}
+
+.hero-header-right {
+    display: flex;
+    gap: 1rem;
+}
+
+.select-language {
+    border: 1px solid white;
+    border-radius: 2px;
+    font-size: 1.15rem;
+    background-color: rgba(0,0,0,0.2)
+}
+.sign-in-button {
+    border: none;
+    background-color: red;
+    border-radius: 4px;
+    font-size: 1.25rem;
+    padding: 4px 8px;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+.hero-content-title {
+    font-weight: 800;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.hero-content-body {
+    font-weight: 600;
+    font-size: 1.4rem;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.hero-content-body2 {
+    font-weight: 500;
+    font-size: 1.25rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.hero-content-input-wrapper {
+    display: flex;
+}
+
+.hero-content-input-wrapper-input {
+    width: 70%;
+    height: 2rem;
+    border: 1px solid lightgray;
+    border-radius: 2px 0 0 2px;
+}
+
+.hero-content-input-wrapper-button {
+    width: 30%;
+    height: 2rem;
+}
+
